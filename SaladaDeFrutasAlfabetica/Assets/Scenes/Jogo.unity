@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 18984202}
   - component: {fileID: 18984204}
   - component: {fileID: 18984203}
+  - component: {fileID: 18984206}
+  - component: {fileID: 18984205}
   m_Layer: 5
   m_Name: LetraOn
   m_TagString: Untagged
@@ -195,6 +197,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18984201}
   m_CullTransparentMesh: 0
+--- !u!114 &18984205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18984201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &18984206
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18984201}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &114046194
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +232,8 @@ GameObject:
   - component: {fileID: 114046195}
   - component: {fileID: 114046197}
   - component: {fileID: 114046196}
+  - component: {fileID: 114046199}
+  - component: {fileID: 114046198}
   m_Layer: 5
   m_Name: LetraU
   m_TagString: Untagged
@@ -269,6 +297,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114046194}
   m_CullTransparentMesh: 0
+--- !u!114 &114046198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114046194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &114046199
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114046194}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &287627753
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +362,7 @@ RectTransform:
   - {fileID: 18984202}
   - {fileID: 1188324116}
   - {fileID: 1409548202}
+  - {fileID: 1840509357}
   m_Father: {fileID: 937648130}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -403,6 +456,8 @@ GameObject:
   - component: {fileID: 348404577}
   - component: {fileID: 348404579}
   - component: {fileID: 348404578}
+  - component: {fileID: 348404580}
+  - component: {fileID: 348404581}
   m_Layer: 5
   m_Name: LetraO
   m_TagString: Untagged
@@ -466,6 +521,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 348404576}
   m_CullTransparentMesh: 0
+--- !u!225 &348404580
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348404576}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &348404581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348404576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &464370396
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +556,8 @@ GameObject:
   - component: {fileID: 464370397}
   - component: {fileID: 464370399}
   - component: {fileID: 464370398}
+  - component: {fileID: 464370401}
+  - component: {fileID: 464370400}
   m_Layer: 5
   m_Name: LetraL
   m_TagString: Untagged
@@ -540,6 +621,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464370396}
   m_CullTransparentMesh: 0
+--- !u!114 &464370400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464370396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &464370401
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464370396}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +739,8 @@ GameObject:
   - component: {fileID: 664210826}
   - component: {fileID: 664210828}
   - component: {fileID: 664210827}
+  - component: {fileID: 664210830}
+  - component: {fileID: 664210829}
   m_Layer: 5
   m_Name: LetraEh
   m_TagString: Untagged
@@ -697,6 +804,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664210825}
   m_CullTransparentMesh: 0
+--- !u!114 &664210829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664210825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &664210830
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 664210825}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &700158862
 GameObject:
   m_ObjectHideFlags: 0
@@ -708,6 +839,8 @@ GameObject:
   - component: {fileID: 700158863}
   - component: {fileID: 700158865}
   - component: {fileID: 700158864}
+  - component: {fileID: 700158866}
+  - component: {fileID: 700158867}
   m_Layer: 5
   m_Name: LetraI
   m_TagString: Untagged
@@ -771,6 +904,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 700158862}
   m_CullTransparentMesh: 0
+--- !u!225 &700158866
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700158862}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &700158867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 700158862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &801830296
 GameObject:
   m_ObjectHideFlags: 0
@@ -782,6 +939,8 @@ GameObject:
   - component: {fileID: 801830297}
   - component: {fileID: 801830299}
   - component: {fileID: 801830298}
+  - component: {fileID: 801830301}
+  - component: {fileID: 801830300}
   m_Layer: 5
   m_Name: LetraAn
   m_TagString: Untagged
@@ -845,6 +1004,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801830296}
   m_CullTransparentMesh: 0
+--- !u!114 &801830300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801830296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &801830301
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801830296}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &921501650
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,6 +1039,8 @@ GameObject:
   - component: {fileID: 921501651}
   - component: {fileID: 921501653}
   - component: {fileID: 921501652}
+  - component: {fileID: 921501654}
+  - component: {fileID: 921501655}
   m_Layer: 5
   m_Name: LetraE
   m_TagString: Untagged
@@ -879,7 +1064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -66, y: 57}
+  m_AnchoredPosition: {x: -42, y: 62}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921501652
@@ -919,6 +1104,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921501650}
   m_CullTransparentMesh: 0
+--- !u!114 &921501654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921501650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &921501655
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921501650}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &937648126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1220,6 @@ RectTransform:
   m_Children:
   - {fileID: 293536271}
   - {fileID: 287627754}
-  - {fileID: 1840509357}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1031,6 +1239,8 @@ GameObject:
   - component: {fileID: 984004731}
   - component: {fileID: 984004733}
   - component: {fileID: 984004732}
+  - component: {fileID: 984004734}
+  - component: {fileID: 984004735}
   m_Layer: 5
   m_Name: LetraA
   m_TagString: Untagged
@@ -1094,6 +1304,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984004730}
   m_CullTransparentMesh: 0
+--- !u!225 &984004734
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984004730}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &984004735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984004730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1101452915
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,6 +1339,8 @@ GameObject:
   - component: {fileID: 1101452916}
   - component: {fileID: 1101452918}
   - component: {fileID: 1101452917}
+  - component: {fileID: 1101452920}
+  - component: {fileID: 1101452919}
   m_Layer: 5
   m_Name: LetraV
   m_TagString: Untagged
@@ -1168,6 +1404,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101452915}
   m_CullTransparentMesh: 0
+--- !u!114 &1101452919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101452915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &1101452920
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101452915}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1188324115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1439,8 @@ GameObject:
   - component: {fileID: 1188324116}
   - component: {fileID: 1188324118}
   - component: {fileID: 1188324117}
+  - component: {fileID: 1188324120}
+  - component: {fileID: 1188324119}
   m_Layer: 5
   m_Name: LetraOh
   m_TagString: Untagged
@@ -1242,6 +1504,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1188324115}
   m_CullTransparentMesh: 0
+--- !u!114 &1188324119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188324115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &1188324120
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188324115}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1398767599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,6 +1605,8 @@ GameObject:
   - component: {fileID: 1409548202}
   - component: {fileID: 1409548204}
   - component: {fileID: 1409548203}
+  - component: {fileID: 1409548206}
+  - component: {fileID: 1409548205}
   m_Layer: 5
   m_Name: LetraN
   m_TagString: Untagged
@@ -1382,6 +1670,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409548201}
   m_CullTransparentMesh: 0
+--- !u!114 &1409548205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409548201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &1409548206
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409548201}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1531974601
 GameObject:
   m_ObjectHideFlags: 0
@@ -1393,6 +1705,7 @@ GameObject:
   - component: {fileID: 1531974602}
   - component: {fileID: 1531974604}
   - component: {fileID: 1531974603}
+  - component: {fileID: 1531974605}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1456,6 +1769,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1531974601}
   m_CullTransparentMesh: 0
+--- !u!114 &1531974605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531974601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af18ff593ff4994bb1d4e37889905eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1818220088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,6 +1792,8 @@ GameObject:
   - component: {fileID: 1818220089}
   - component: {fileID: 1818220091}
   - component: {fileID: 1818220090}
+  - component: {fileID: 1818220093}
+  - component: {fileID: 1818220092}
   m_Layer: 5
   m_Name: LetraM
   m_TagString: Untagged
@@ -1530,6 +1857,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818220088}
   m_CullTransparentMesh: 0
+--- !u!114 &1818220092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818220088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &1818220093
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818220088}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1840509356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,13 +1904,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840509356}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1531974602}
-  m_Father: {fileID: 937648130}
-  m_RootOrder: 2
+  m_Father: {fileID: 287627754}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1577,6 +1928,8 @@ GameObject:
   - component: {fileID: 2056713957}
   - component: {fileID: 2056713959}
   - component: {fileID: 2056713958}
+  - component: {fileID: 2056713961}
+  - component: {fileID: 2056713960}
   m_Layer: 5
   m_Name: LetraF
   m_TagString: Untagged
@@ -1600,7 +1953,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: 57}
+  m_AnchoredPosition: {x: 260, y: 71}
   m_SizeDelta: {x: 90, y: 90}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2056713958
@@ -1640,3 +1993,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056713956}
   m_CullTransparentMesh: 0
+--- !u!114 &2056713960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056713956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 301bb5946dd2c3c4a8d4239c71137388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &2056713961
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056713956}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
