@@ -61,7 +61,7 @@ public class Cesta : MonoBehaviour, IDropHandler
     {
         if (qtFrutas == 9)
         {
-            yield return new WaitForSeconds(5);
+            yield return new WaitForSeconds(2);
             SceneManager.LoadScene(2);
         }
         

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 18984206}
   - component: {fileID: 18984205}
   m_Layer: 5
-  m_Name: LetraOn
+  m_Name: LetraOn_100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 664210829}
   - component: {fileID: 664210831}
   m_Layer: 5
-  m_Name: LetraEh
+  m_Name: LetraEh_100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1191,7 +1191,7 @@ GameObject:
   - component: {fileID: 801830301}
   - component: {fileID: 801830300}
   m_Layer: 5
-  m_Name: LetraAn
+  m_Name: LetraAn_100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1693,7 +1693,7 @@ GameObject:
   - component: {fileID: 1188324120}
   - component: {fileID: 1188324119}
   m_Layer: 5
-  m_Name: LetraOh
+  m_Name: LetraOh_100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2165,7 +2165,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0af18ff593ff4994bb1d4e37889905eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 118197648}
+  audioSource1: {fileID: 0}
+  audioClip1: {fileID: 0}
 --- !u!82 &1531974606
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2405,7 +2406,7 @@ GameObject:
   - component: {fileID: 1818220093}
   - component: {fileID: 1818220092}
   m_Layer: 5
-  m_Name: LetraM
+  m_Name: LetraM_100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
