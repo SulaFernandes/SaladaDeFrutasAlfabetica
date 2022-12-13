@@ -39,26 +39,35 @@ public class Animais : MonoBehaviour, IDropHandler
     {
         if (eventData.pointerDrag != null)
         {
+            GameObject droppedObject = eventData.pointerDrag;
+
             if (eventData.pointerDrag.gameObject.GetComponent<Image>().sprite == sprite2 && gameObject.name == "Raposa")
             {
                 eventData.pointerDrag.gameObject.GetComponent<Image>().sprite = sprite1;
                 audioSource1.PlayOneShot(audioClip1);
+                droppedObject.transform.position = ArrastarESoltar.stPosition;
                 acertos++;
             }
             else if (eventData.pointerDrag.gameObject.GetComponent<Image>().sprite == sprite3 && gameObject.name == "Iguana")
             {
                 eventData.pointerDrag.gameObject.GetComponent<Image>().sprite = sprite1;
+                droppedObject.transform.position = ArrastarESoltar.stPosition;
                 audioSource1.PlayOneShot(audioClip1);
                 acertos++;
             }
             else if (eventData.pointerDrag.gameObject.GetComponent<Image>().sprite == sprite4 && gameObject.name == "Bonobo")
             {
                 eventData.pointerDrag.gameObject.GetComponent<Image>().sprite = sprite1;
+                droppedObject.transform.position = ArrastarESoltar.stPosition;
                 audioSource1.PlayOneShot(audioClip1);
                 acertos++;
             }
             else
+            {
                 audioSource2.PlayOneShot(audioClip2);
+                droppedObject.transform.position = ArrastarESoltar.stPosition;
+            }
+                
             
             terminarJogo();
         }

@@ -7,20 +7,27 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System;
+using UnityEngine.SceneManagement;
 
 public class Cesta : MonoBehaviour, IDropHandler
 {
     RectTransform rectTransform;
     public static int qtFrutas = 0;
-    public AudioSource audioSource;  
-   // public AudioClip audioclip;  
+    public AudioSource audioSource1;  
+    public AudioClip audioClip1;
+
+    AudioSource audioSource2;
+    AudioClip audioClip2;
+
     public void OnDrop(PointerEventData eventData){
 
-      //  audioSource = GameObject.AddComponent<AudioSource>() as audioSource;
-      //  audioclip = ResourceScope.Load<AudioClip>("Imagens/JogoParte2/Audios/Tada");
-      
-        if(eventData.pointerDrag != null){
+        audioSource1 = gameObject.AddComponent<AudioSource>() as AudioSource;
+        audioClip1 = Resources.Load<AudioClip>("Imagens/JogoParte2/Audios/Tada");
+
+        audioSource2 = gameObject.AddComponent<AudioSource>() as AudioSource;
+        audioClip2 = Resources.Load<AudioClip>("Imagens/JogoParte2/Audios/oou");
+
+        if (eventData.pointerDrag != null){
             GameObject droppedObject = eventData.pointerDrag;
             String nomeletra = droppedObject.name.ToString();
             string numLetra = nomeletra.Split('_')[1];
@@ -31,30 +38,33 @@ public class Cesta : MonoBehaviour, IDropHandler
                // Debug.Log("Nome letra: " + valor);
                // Debug.Log("Ordem do som: " + TocarSons.tocar);
                 if(qtFrutas == 9){
-                    audioSource.Play();
-                }else{
+                    //audioSource1.PlayOneShot(audioClip1);
+                }
+                else{
                     qtFrutas++;
+                    audioSource1.PlayOneShot(audioClip1);
                 }
             }else{
-                Debug.Log("oou"); 
+                 
                 Debug.Log(ArrastarESoltar.stPosition);
-             //   audioSource.PlayOneShot(audioClip);
+                audioSource2.PlayOneShot(audioClip2);
 
                 droppedObject.transform.position = ArrastarESoltar.stPosition;
             }
-          
+
+            StartCoroutine(esperarSegundos());
             
         }
     }
 
-    /*public void OnDrop(PointerEventData eventData)
+    IEnumerator esperarSegundos()
     {
-        if (eventData.pointerDrag != null)
+        if (qtFrutas == 9)
         {
-            
-            eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+            yield return new WaitForSeconds(5);
+            SceneManager.LoadScene(2);
         }
-    }*/
-
+        
+    }
 
 }
