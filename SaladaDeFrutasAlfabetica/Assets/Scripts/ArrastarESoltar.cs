@@ -7,7 +7,7 @@ public class ArrastarESoltar : MonoBehaviour, IDragHandler, IBeginDragHandler, I
 {
     RectTransform rectTransform;
     CanvasGroup group;
-
+    public static Vector3 stPosition;
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
@@ -16,6 +16,7 @@ public class ArrastarESoltar : MonoBehaviour, IDragHandler, IBeginDragHandler, I
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        stPosition = transform.position;
         group.blocksRaycasts = false;
     }
 

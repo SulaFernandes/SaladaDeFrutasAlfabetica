@@ -7,11 +7,15 @@ public class TocarSons : MonoBehaviour
 {
     public AudioSource audioSource;
     public AudioClip[] audioClips;
+    public static int tocar = 0;
 
     public void tocarSonsLetras()
     {
-        //audioSource.Play();
-        audioSource.clip = audioClips[Random.Range(0, audioClips.Length)];
-        audioSource.PlayOneShot(audioSource.clip);
+        if(tocar < audioClips.Length){
+            audioSource.clip = audioClips[tocar];
+            audioSource.PlayOneShot(audioSource.clip);
+        }
+
     }
+  
 }
