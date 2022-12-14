@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 760, y: -239}
-  m_SizeDelta: {x: 350, y: 350}
+  m_AnchoredPosition: {x: 773, y: -219.99}
+  m_SizeDelta: {x: 374.56738, y: 388.0188}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &130533790
 AudioSource:
@@ -666,8 +666,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 739, y: 149}
-  m_SizeDelta: {x: 350, y: 350}
+  m_AnchoredPosition: {x: 709.5, y: 178.5}
+  m_SizeDelta: {x: 408.96228, y: 408.96234}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &531052902
 AudioSource:
@@ -1319,8 +1319,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 234, y: 308}
-  m_SizeDelta: {x: 450, y: 350}
+  m_AnchoredPosition: {x: 211, y: 284}
+  m_SizeDelta: {x: 630.0488, y: 387.22174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1670191377
 AudioSource:
@@ -1557,8 +1557,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -530, y: 233}
-  m_SizeDelta: {x: 350, y: 350}
+  m_AnchoredPosition: {x: -650, y: 38}
+  m_SizeDelta: {x: 241.90253, y: 260}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &1885392576
 AudioSource:

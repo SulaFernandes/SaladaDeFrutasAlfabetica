@@ -22,7 +22,7 @@ public class Cesta : MonoBehaviour, IDropHandler
     public void OnDrop(PointerEventData eventData){
 
         audioSource1 = gameObject.AddComponent<AudioSource>() as AudioSource;
-        audioClip1 = Resources.Load<AudioClip>("Imagens/JogoParte2/Audios/Tada");
+        audioClip1 = Resources.Load<AudioClip>("Imagens/JogoParte2/Audios/pop");
 
         audioSource2 = gameObject.AddComponent<AudioSource>() as AudioSource;
         audioClip2 = Resources.Load<AudioClip>("Imagens/JogoParte2/Audios/oou");
@@ -57,10 +57,16 @@ public class Cesta : MonoBehaviour, IDropHandler
         }
     }
 
+    AudioSource audioSource3;
+    AudioClip audioClip3;
+
     IEnumerator esperarSegundos()
     {
         if (qtFrutas == 9)
         {
+            audioSource3 = gameObject.AddComponent<AudioSource>() as AudioSource;
+            audioClip3 = Resources.Load<AudioClip>("Imagens/JogoParte2/Audios/aplausos");
+            audioSource3.PlayOneShot(audioClip3);
             yield return new WaitForSeconds(2);
             SceneManager.LoadScene(2);
         }
